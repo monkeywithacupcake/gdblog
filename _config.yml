@@ -1,4 +1,4 @@
-title:            gifts-done blog
+title:            the wrap
 description:      insights and tips for busy people
 disqus_shortname: gifts-done
 reading_time:     true
@@ -10,7 +10,7 @@ url: http://blog.gifts-done.com
 # Owner/author information
 owner:
   name:           gifts-done
-  avatar:         gifts_done_logo.png
+  avatar:         gifts-done-logo.png
   bio:            "We believe that gifts can be simple, automatic, and personal"
   email:          jess@gifts-done.com
   # Social networking links used in footer. Update and remove as you like.
@@ -39,7 +39,7 @@ timezone:    America/Los_Angelos
 future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge
 markdown:    kramdown
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist
