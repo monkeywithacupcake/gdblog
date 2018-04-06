@@ -14,12 +14,12 @@ owner:
   bio:            "We believe that gifts can be simple, automatic, and personal"
   email:          jess@gifts-done.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter: @gifts_done
+  twitter: gifts_done
   facebook: giftsdone
   github:
   stackexchange:
   linkedin:
-  instagram: @gifts_done
+  instagram: gifts_done
   flickr:
   tumblr:
   # google plus id, include the '+', eg +mmistakes
