@@ -1,466 +1,481 @@
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-<head>
+<!--
+  Minimal Mistakes Jekyll Theme 4.11.1 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117247268-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!-- begin _includes/seo.html --><title>The Wrap</title>
+<meta name="description" content="Tips and Tricks for Gifting and Surviving">
 
-  gtag('config', 'UA-117247268-2');
-</script>
 
-<meta charset="utf-8">
-<title>insights and tips for busy people &#8211; the wrap</title>
-<meta name="description" content="a blog from the founders of gifts-done">
-<meta name="keywords" content="blog, gifts">
 
-<!-- Twitter Cards -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://blog.gifts-done.com/images/gifts-done-cover.png">
-
-<meta name="twitter:title" content="insights and tips for busy people">
-<meta name="twitter:description" content="a blog from the founders of gifts-done">
-<meta name="twitter:creator" content="@gifts_done">
-
-<!-- Open Graph -->
+<meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="insights and tips for busy people">
-<meta property="og:description" content="a blog from the founders of gifts-done">
+<meta property="og:site_name" content="The Wrap">
+<meta property="og:title" content="The Wrap">
 <meta property="og:url" content="http://blog.gifts-done.com/">
-<meta property="og:site_name" content="the wrap">
 
 
 
+
+  <meta property="og:image" content="http://blog.gifts-done.com/assets/images/gd_newsletter.png">
+
+
+
+  <meta name="twitter:site" content="@gifts_done">
+  <meta name="twitter:title" content="The Wrap">
+  <meta name="twitter:description" content="Tips and Tricks for Gifting and Surviving">
+  <meta name="twitter:url" content="http://blog.gifts-done.com/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+      <meta name="twitter:image" content="http://blog.gifts-done.com/assets/images/gd_newsletter.png">
+    
+  
+
+  
+
+
+
+
+
+
+
+  
+
+  
 
 
 <link rel="canonical" href="http://blog.gifts-done.com/">
-<link href="http://blog.gifts-done.com/feed.xml" type="application/atom+xml" rel="alternate" title="the wrap Feed">
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "http://blog.gifts-done.com",
+      "logo": "http://blog.gifts-done.com/assets/images/gd_newsletter.png"
+    }
+  </script>
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Gifts-Done",
+      "url": "http://blog.gifts-done.com",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="The Wrap Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://blog.gifts-done.com/assets/css/main.css">
-<!-- Webfonts -->
-<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
-<meta http-equiv="cleartype" content="on">
-
-<!-- Load Modernizr -->
-<script src="http://blog.gifts-done.com/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
-
-<!-- Icons -->
-<!-- 16x16 -->
-<link rel="shortcut icon" href="http://blog.gifts-done.com/favicon.ico">
-<!-- 32x32 -->
-<link rel="shortcut icon" href="http://blog.gifts-done.com/favicon.png">
-<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-<link rel="apple-touch-icon-precomposed" href="http://blog.gifts-done.com/images/apple-touch-icon-precomposed.png">
-<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://blog.gifts-done.com/images/apple-touch-icon-72x72-precomposed.png">
-<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://blog.gifts-done.com/images/apple-touch-icon-114x114-precomposed.png">
-<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://blog.gifts-done.com/images/apple-touch-icon-144x144-precomposed.png">
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
 
 
+    <!-- start custom head snippets -->
 
-</head>
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
 
-<body id="post-index" class="feature">
+<!-- end custom head snippets -->
 
-<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
-<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
-	<button class="dl-trigger">Open Menu</button>
-	<ul class="dl-menu">
-		<li><a href="http://blog.gifts-done.com/">Home</a></li>
-		<li>
-			<a href="#">About</a>
-			<ul class="dl-submenu">
-				<li>
-					<img src="http://blog.gifts-done.com/images/gifts-done-logo.png" alt="gifts-done photo" class="author-photo">
-					<h4>gifts-done</h4>
-					<p>We believe that gifts can be simple, automatic, and personal</p>
-				</li>
-				<li><a href="https://www.gifts-done.com/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-				<li>
-					<a href="mailto:jess@gifts-done.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
-				</li>
-				<li>
-					<a href="https://twitter.com/gifts_done"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
-				</li>
-				<li>
-					<a href="https://facebook.com/giftsdone"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
-				</li>
-				
-				
-				
-				
-				<li>
-					<a href="https://instagram.com/gifts_done"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
-				</li>
-				
-				
-			</ul><!-- /.dl-submenu -->
-		</li>
-		<li>
-			<a href="#">Posts</a>
-			<ul class="dl-submenu">
-				<li><a href="http://blog.gifts-done.com/posts/">All Posts</a></li>
-				<li><a href="http://blog.gifts-done.com/tags/">All Tags</a></li>
-			</ul>
-		</li>
-		
-	    
-	    <li><a href="https://www.gifts-done.com/users" target="_blank">Use gifts-done</a></li>
-	  
-	    
-	    <li><a href="http://blog.gifts-done.comttps://www.gifts-done.com/suppliers" >Become a supplier</a></li>
-	  
-	</ul><!-- /.dl-menu -->
-</nav><!-- /.dl-menuwrapper -->
+  </head>
+
+  <body class="layout--home">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="/">The Wrap</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://www.gifts-done.com" >Main</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://www.gifts-done.com/about/" >About</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
 
 
-<div class="entry-header">
-  <div class="image-credit">Image source: <a href="www.unsplash.com">unsplash</a></div><!-- /.image-credit -->
-  
+    <div class="initial-content">
       
-        <div class="entry-image">
-          <img src="http://blog.gifts-done.com/images/gifts-done-cover.png" alt="insights and tips for busy people">
-        </div><!-- /.entry-image -->
-      
-  
-  <div class="header-title">
-    <div class="header-title-wrap">
-      <h1>the wrap</h1>
-      <h2>insights and tips for busy people</h2>
-    </div><!-- /.header-title-wrap -->
-  </div><!-- /.header-title -->
-</div><!-- /.entry-header -->
+
+
 
 <div id="main" role="main">
   
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-        <a href="http://blog.gifts-done.com/may-ig/" title="May Instagram Challenge"><img src="http://blog.gifts-done.com/images/ig_challenge_may.png" alt="May Instagram Challenge"></a>
-      </div><!-- /.entry-image -->
-    
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2018-04-30T00:00:00+00:00"><a href="http://blog.gifts-done.com/may-ig/">April 30, 2018</a></time></span><span class="author vcard"><span class="fn"><a href="http://blog.gifts-done.com/about/" title="About gifts-done">gifts-done</a></span></span>
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
       
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        
-Reading time ~1 minute
-      </span><!-- /.entry-reading-time -->
+
       
-    </div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://blog.gifts-done.com/may-ig/" rel="bookmark" title="May Instagram Challenge" itemprop="url">May Instagram Challenge</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <blockquote>
-  <p>“You have brains in your head. You have feet in your shoes. You can steer yourself, any direction you choose.”
-― Dr. Seuss</p>
-</blockquote>
-
-<p>Our heart and soul is in our wonderful suppliers, and we want everyone to have a little fun. To that end, we created an instagram challenge for suppliers, but anyone can join the fun. Let’s see what direction your May takes!</p>
-
-<p><img title="May Gifts Done Instagram Challenge" align="center" style="padding:5px;" src="http://blog.gifts-done.com/images/ig_challenge_may.png" alt="gifts done instagram challenge" /></p>
-
-<h2 id="make-the-most-of-it">Make the Most of It</h2>
-<p>Become part of the party by posting something related to the challenge each day. Be sure to also use and follow the main challenge hashtag <strong>#gdempowers</strong> - this is how everyone can see your posts and we can repost you!</p>
-
-<ul>
-  <li>It is so exciting to see how other people use a prompt. Be wild, be wacky, just be yourself.</li>
-  <li>Celebrate other makers and creators</li>
-  <li>Meet new people!</li>
-</ul>
-
-<h2 id="well-repost-you">We’ll Repost You</h2>
-<p>We love seeing what our suppliers (and future suppliers) are up to.</p>
-
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-        <a href="http://blog.gifts-done.com/5ways-nocost/" title="5 No Cost Ways to Spread Joy"><img src="http://blog.gifts-done.com/images/never-feel.png" alt="5 No Cost Ways to Spread Joy"></a>
-      </div><!-- /.entry-image -->
-    
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2018-04-10T00:00:00+00:00"><a href="http://blog.gifts-done.com/5ways-nocost/">April 10, 2018</a></time></span><span class="author vcard"><span class="fn"><a href="http://blog.gifts-done.com/about/" title="About gifts-done">gifts-done</a></span></span>
+        <img src="/assets/images/gifts-done-logo.png" alt="Gifts Done" itemprop="image">
       
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        
-Reading time ~3 minutes
-      </span><!-- /.entry-reading-time -->
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Gifts Done</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        We believe that gifts can be simple, automatic, and personal
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
       
-    </div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://blog.gifts-done.com/5ways-nocost/" rel="bookmark" title="5 No Cost Ways to Spread Joy" itemprop="url">5 No Cost Ways to Spread Joy</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <blockquote>
-  <p>“I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.”
-― Maya Angelou</p>
-</blockquote>
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">USA</span>
+        </li>
+      
 
-<p>We think that a lot is communicated in how people feel, and <strong>we want people to feel joy</strong>.  That’s not just a gimmick. We believe in self-care, family-care, friend-care. Here are 5 no cost ways to show people that you care and spread joy.</p>
+      
 
-<h2 id="1-invite-them-to-go-for-a-walk-with-you">1. Invite them to go for a walk with you</h2>
-<p><img title="by Jonas Weckschmied, Unsplash" align="right" style="padding:5px;" src="https://images.unsplash.com/photo-1469989336803-8876b8443f06?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=40c67e788265b1f0dce05673e6bccfbc&amp;auto=format&amp;fit=crop&amp;w=400&amp;q=60" alt="walking" />
-An invitation is a beautiful thing, regardless of its form. We feel included and may even do things that we want to do but avoid because of lack of motivation. Inviting a friend to walk with you may give them just enough reason to get up and do something they wanted to do anyways! In addition, walking with other people - socially - has been shown to reduce depression.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> We all know that there are physical benefits as well, so go out and walk. Chat them up during the walk. It will do you both some good!</p>
+      
+        <li>
+          <a href="mailto:hello@gifts-done.com">
+            <meta itemprop="email" content="hello@gifts-done.com" />
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
 
-<h2 id="2-make-them-a-meal-or-treat">2. Make them a meal or treat</h2>
-<p><img title="by Nordwood Themes, Unsplash" align="left" style="padding:5px;" src="https://images.unsplash.com/photo-1488045212212-a5b5b0f8d3fc?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=fc70649381f3806d32aa42a4fef3e009&amp;auto=format&amp;fit=crop&amp;w=180&amp;q=60" alt="cupcakes" />
-They say that the way to a man’s heart is through his stomach, but it is true for ladies and kids as well. Have you ever offered a cookie to someone and not made an instant friend? Don’t worry about appearance or amount, either. Real people know that it doesn’t matter to taste. It’s enough that you care. Secret tip - you can make yourself or your family a treat or meal and just increase the portions a little or double to share with someone else. Luckily, cooking for others benefits us, too. Studies show that people who are cooking or making things for others feel more confidence, feel happier, and feel stronger connections to the people who they are cooking for.<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></p>
+      
 
-<h2 id="3-create-something-for-them">3. Create something for them</h2>
-<p><img title="by rawpixel.com, Unsplash" align="right" style="padding:5px;" src="https://images.unsplash.com/photo-1521623569012-4eb30b21369a?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=28ee2f63a210ba9ebacd002c1f7dbf8c&amp;auto=format&amp;fit=crop&amp;w=330&amp;q=60" alt="pencil ready" />
-You have talents that you may not yet know of. Try to draw a little doodle, write a poem, paint a tiny canvas, or make an origami frog. There are so many little creative possibilities. The thing is, it doesn’t have to be perfect. Your fingerprint ladybug may just crack them up in the moment - it may never end up in a museum, or even a permanent place on your friend’s wall or fridge.</p>
+      
 
-<h2 id="4-give-them-a-call">4. Give them a call</h2>
-<p><img title="by rawpixel.com, Unsplash" align="left" style="padding:5px;" src="https://images.unsplash.com/photo-1519781916412-663d649a4359?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=d92c5bbab6ff94740dc373fda5bae067&amp;auto=format&amp;fit=crop&amp;w=270&amp;q=60" alt="man on phone" /> When was the last time that you called someone or received a call - not for scheduling a dentist appointment or something but to chat? It seems like a rare treat these days. Even if they cannot talk to you, hearing your voice fumbling through the voicemail or seeing a missed call can help someone feel loved. It is so easy. If you don’t have much time, that is fine - just politely hang up after a short discussion. Not sure how to start talking to someone after it has been awhile. Prepare ahead of time with a question or an invitation - do they know something that you could ask them about or could you get together in person?</p>
+      
 
-<h2 id="5-pay-them-a-real-complement">5. Pay them a real complement</h2>
-<p>This is an every day option - you can give these out all the time. Strangers, friends, family - it does not matter. …but there is a reason that complement is qualified with ‘real’. People can usually tell when we are being, er, frivolous with our complements. Genuine appreciation of something that he or she did is so much more meaningful than calling out immutable things like appearance. Here are a few examples, “Wow, you have a way with words - I’d never have thought of, ‘witty-thing-they-said’“… “These ‘insert food/art product’ are divine. I am impressed with your ‘insert specific something’”. Secret tip - Practice with strangers if you are afraid of sounding like a robot around your friends!</p>
+      
 
-<p>Great perk of all of these - science shows that giving benefits us even without expectation of getting something back. So, every effort to give someone else joy brings it back to you!<sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></p>
+      
 
-<h4 id="references">References</h4>
+      
 
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>Hanson S, Jones A. Is there evidence that walking groups have health benefits? A systematic review and meta-analysis Br J Sports Med 2015;49:710-715. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:2">
-      <p>Thomson, Julie R. The Very Real Psychological Benefits Of Cooking For Other People. Huffington Post. <a href="https://www.huffingtonpost.com/entry/benefits-of-cooking-for-others_us_5967858ae4b0a0c6f1e67a15">full text</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:3">
-      <p>Konnikova, Maria. The Psychology Behind Gift-Giving and Generosity. Scientific American 2012; January 4. <a href="https://blogs.scientificamerican.com/literally-psyched/the-psychology-behind-gift-giving-and-generosity/">full text</a> <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
 </div>
 
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
+  
+  </div>
 
-<article class="hentry">
-  <header>
+
+  <div class="archive">
     
-      <div class="entry-image-index">
-        <a href="http://blog.gifts-done.com/how-to-use-gifts-done/" title="How to use the gifts-done service"><img src="http://blog.gifts-done.com/images/abstract-8.jpg" alt="How to use the gifts-done service"></a>
-      </div><!-- /.entry-image -->
+      <h1 id="page-title" class="page__title"></h1>
     
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2018-04-05T00:00:00+00:00"><a href="http://blog.gifts-done.com/how-to-use-gifts-done/">April 05, 2018</a></time></span><span class="author vcard"><span class="fn"><a href="http://blog.gifts-done.com/about/" title="About gifts-done">gifts-done</a></span></span>
+    <h3 class="archive__subtitle">Recent Posts</h3>
+
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
       
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        
-Reading time ~2 minutes
-      </span><!-- /.entry-reading-time -->
+        <a href="/may-ig/" rel="permalink">May Instagram Challenge
+</a>
       
-    </div><!-- /.entry-meta -->
+    </h2>
     
-      <h1 class="entry-title"><a href="http://blog.gifts-done.com/how-to-use-gifts-done/" rel="bookmark" title="How to use the gifts-done service" itemprop="url">How to use the gifts-done service</a></h1>
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
     
-  </header>
-  <div class="entry-content">
-    <p>Using a new service can be confusing. We want everyone to feel confident when first starting out with gifts-done.</p>
+    <p class="archive__item-excerpt" itemprop="description">
+  “You have brains in your head. You have feet in your shoes. You can steer yourself, any direction you choose.”
+― Dr. Seuss
 
-<h2 id="registration">Registration</h2>
-<p>The gifts-done service is ready for you, with just your email and a password. You can get started in less than 10 seconds. Please pay attention to the email that you enter; you can reset your password through this email address.</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V3mIm-XgHPQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-
-<p>What do you get with your registration? At no cost whatsoever, you can set up your giftees and identify their important dates. You can use that information for your own reference - and have it available all year ‘round. If you want to have us take care of your gifts - that’s the whole <strong>done</strong> part of gifts-done - you can add payment information and then you just press “curate” on any of your gift events. We use your budget and your giftee preferences to send a great gift. Our service fee is charged when the gift is finished (along with the cost of the gift and shipping). You can also become a member and pay no service fees for an entire year!</p>
-
-<h2 id="setting-up-a-giftee">Setting up a giftee</h2>
-<p>The people who we want to send gifts to are called “giftees”. There is a section on your dashboard that always has a big button on the bottom, “Add a Giftee”. You can click that button and add information about these people. It takes just a minute to set someone up as a giftee. You will see the following fields:</p>
-
-<ul>
-  <li><strong>Name</strong> - this is the full name that would go on something you mail to this person</li>
-  <li><strong>Nick name</strong> - this is what you call them, like: Gramma, or Billy</li>
-  <li><strong>What they call you</strong> - you may have different names for different people (their nick names for you)</li>
-  <li><strong>Their shipping address</strong> - we ship to all US addresses - The most critical information about a giftee is the shipping address. <em>Please double check that it is correct.</em></li>
-  <li><strong>Their preferences</strong> - this is all optional, but it helps us to better select a supplier and helps them to put together a great gift for this person</li>
-</ul>
-
-<p><img title="giftee entry form" style="padding:5px;" src="http://blog.gifts-done.com/images/user_add_a_giftee.png" alt="giftee entry form from gifts-done dashboard" /></p>
-
-<p>This short video (52 seconds) shows creating a new giftee.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/69IH8iF8v4c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-
-<h2 id="setting-up-a-gift-event">Setting up a gift event</h2>
-<p>A gift event is a particular gift for a giftee. Typical gift events are recurring events, like birthdays, anniversaries, or holidays (Mother’s Day, Father’s Day), and one off events, like graduations or weddings. You set the date, a note, and a budget for each gift event.</p>
-
-<p>This short video (40 seconds) shows creating a new gift event for one of your giftees.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HVXxf0BGR6Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-
-<p>Once you have a gift event and a payment method setup, you can click the ‘curate’ button. This puts your gift event in our list of gifts to send. If it is soon, we match you with a supplier right away. If it is far off, we keep track of the date until it is close enough to engage a supplier. We will ask you to verify the address again if it has been awhile.</p>
-
-<p>Are you ready to get started? Head on over to <a href="https://www.gifts-done.com">gifts-done</a> and start enjoying better gifting today!</p>
-
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-        <a href="http://blog.gifts-done.com/how-to-supply-gifts-done/" title="How to deliver a gift!"><img src="http://blog.gifts-done.com/images/abstract-12.jpg" alt="How to deliver a gift!"></a>
-      </div><!-- /.entry-image -->
-    
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2018-04-02T00:00:00+00:00"><a href="http://blog.gifts-done.com/how-to-supply-gifts-done/">April 02, 2018</a></time></span><span class="author vcard"><span class="fn"><a href="http://blog.gifts-done.com/about/" title="About gifts-done">gifts-done</a></span></span>
-      
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        
-Reading time ~1 minute
-      </span><!-- /.entry-reading-time -->
-      
-    </div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://blog.gifts-done.com/how-to-supply-gifts-done/" rel="bookmark" title="How to deliver a gift!" itemprop="url">How to deliver a gift!</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <p>Suppliers are the best! We count on your creativity and professionalism to make better gifting for everyone.</p>
-
-<h2 id="your-dashboard">Your Dashboard</h2>
-<p>When you are logged in as a gifts-done supplier, you can see all of the gift events assigned to you and their status. Most of the time, you will get just over 30 days to make and deliver a gift. The due dates and target shipping countdown are clearly visible at the top of each gift.</p>
-
-<p><img title="giftee entry form" style="padding:5px;" src="http://blog.gifts-done.com/images/supplier_dashboard.png" alt="supplier gifts-done dashboard" /></p>
-
-<h2 id="see-gift-details">See Gift Details</h2>
-<p>When you click on the details, you will see the gift budget, the note that should accompany the gift, the giftee preferences, and the address - all together.</p>
-
-<p><img title="gift event details for a supplier" style="padding:5px;" src="http://blog.gifts-done.com/images/supplier_event_details.png" alt="gift event details gifts-done dashboard" /></p>
-
-<h2 id="finish-a-gift">Finish a Gift</h2>
-<p>A finished gift is the best gift, right? Every gift event that is not already finished has “Mark As Finished” button. When you push that button, you are presented with the form</p>
-
-<p><img title="gift event finish form" style="padding:5px;" src="http://blog.gifts-done.com/images/supplier_finish_form.png" alt="gift event finish form from gifts-done dashboard" /></p>
-
-<p>When you finish a gift, you can double check the details, including the budget, note, and address.</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tIbeX93nWEU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-
-<h2 id="ship-a-gift">Ship a Gift</h2>
-<p>If the charge is successful after you finish a gift, you will see a “Mark As Shipped” button. Otherwise, you will see a warning that the user could not be charged and you should not ship.</p>
-
-<p>To identify something as shipped, just press “Mark As Shipped” and add the tracking number. Easy peasy.</p>
-
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-
-<article class="hentry">
-  <header>
-    
-      <div class="entry-image-index">
-        <a href="http://blog.gifts-done.com/backstory/" title="Backstory"><img src="http://blog.gifts-done.com/images/abstract-3.jpg" alt="Backstory"></a>
-      </div><!-- /.entry-image -->
-    
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2018-03-31T00:00:00+00:00"><a href="http://blog.gifts-done.com/backstory/">March 31, 2018</a></time></span><span class="author vcard"><span class="fn"><a href="http://blog.gifts-done.com/about/" title="About gifts-done">gifts-done</a></span></span>
-      
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        
-Reading time ~4 minutes
-      </span><!-- /.entry-reading-time -->
-      
-    </div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://blog.gifts-done.com/backstory/" rel="bookmark" title="Backstory" itemprop="url">Backstory</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <p>Every business has a backstory, ours just starts with guilt and FaceTime</p>
-
-<h1 id="picture-this">Picture This</h1>
-<p>Two sisters live miles and miles apart, but chat frequently. Nearly every week, we spend time staring at each other and catching up on all of the exciting things (and real things) going on in our lives. Work, kids, weather, love, money, etc. One routine topic of conversation always had a pang of guilt, terrible guilt - and that was not sending gifts. We would even make plans…the kinds of plans that get down to discussing actual future actions - hey, Sara’s<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> birthday is next month - what are you going to send? <em>No matter how much we talked about being thoughtful, life and indecision held us up.</em> We’d find cool stuff and bounce between ideas until it was too late to buy and ship. We’d ponder last minute options, like a grocery delivery. Ultimately, we’d just end up talking about what we did not send and how we would totally be better people for the next awesome person and remember to send something. <em>totally</em></p>
-
-<h1 id="the-problem">The Problem</h1>
-<p>They say the first step to recovery is identifying that you have a problem. It was a summer day in 2017, and we were in our usual cycle of conversation when we stopped and reflected that the whole not-sending-gifts-that-you-mean-to-send is actually a problem. One of us mentioned that there should be a better way. Perhaps there were people who could just do it for you, so you wouldn’t have to be lame. Since we don’t live in a world where people just do things for us, we started looking for a gifting service.</p>
-
-<p><img title="by Aron Reacher, Unsplash" align="right" style="padding:5px;" src="https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=d34293717666869c9f8d26d353e1bb24&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=60" alt="hourglass" /></p>
-
-<p>You know what we found? Lots and lots of services to remind us of important dates. The more that we searched, and failed, the more that we worked to define the problem we actually faced. It wasn’t that we didn’t remember, it was that we’d remember at the wrong time or let the perfect gift be the enemy of the great gift. We ultimately found that what we really needed was a way to plan our gifting when we had time and we were thinking about it - any busy person knows that these two are rarely in line. And then, we needed a way to ensure that the gifts shipped not when we were thinking about them, but at the right time. It was all just a time/flow problem.</p>
-
-<p><em>We thought it might be easier to bend space time than to get the timing right ourselves</em></p>
-
-<h1 id="the-idea">The Idea</h1>
-<p>We let it go for awhile; mostly because bending space time seemed pretty hard. Then, it came back up in conversation - perhaps we could be the solution. Not that we, personally, could go out and make or get gifts for folks, but perhaps we could come up with a solution. We considered just outsourcing our whole list to some kind of magical people who would be better than us at gifting. We labored through how we would ensure that these magical people would get the kinds of gifts that would make us and our giftees happy. There seemed to be so many questions:</p>
-
-<ul>
-  <li>How we could trust them not to just go to Target and buy something off of the dollar shelf?</li>
-  <li>More deeply, how could we get the kinds of things and support the businesses we liked if we outsourced?</li>
-  <li>How would we keep track of what people got and whether they liked it?</li>
-  <li>How would we know that people got different things?</li>
-</ul>
-
-<p>It seemed like a no go. There were just so many risks.</p>
-
-<p>Finally, we did the first thing that we should have done. We talked to people. We talked to lots of people. It was hard at first - did you know that people don’t like to admit that they struggle with things? However, most of our friends had the exact same struggles. Ultimately, we reached the people who make things and would turn out to be our solution. It turns out that so many people who are working at home or in small shops love when the orders that come in to them are gifts - and they love when orders come in at all because…let’s face it, being able to have a roof and food are nice. Maybe we could give some of our creative friends our list and just have them do it. Wait…that’s close. Maybe we could develop something up that would send our creative friends our request just at the right time?</p>
-
-<p><img title="by Bhushan Sadani, Unsplash" align="center" src="https://images.unsplash.com/photo-1478088702756-f16754aaf0c4?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=82c573f4bc95aa283422fc036f16042d&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" alt="magic" /></p>
-
-<p>And that is when we really had it. And about the time that we realized that we could make this work for other people, too. We just needed to collect enough different creative people to be able to deliver gifts over the whole year to different kinds of people. And, we needed to have a way to collect and store information from people. From there, it was a coding journey and a little bit of a finance journey, as we picked a way to process payments that seemed the most fair to our users and suppliers.</p>
-
-<p>Essentially, our gifts-done service is still this idea. People can enter information about their giftees, folks they want to send gifts to and the right dates and gift budgets for those people. Our service pays attention to the dates, budgets, and the preferences of the giftee and matches them up with a creative business owner who hand crafts or curates a gift that is sure to delight and sends it just on time. We added a part where the suppliers take a picture and describe what they are shipping as well. Now, we know what “we” are sending and can clue in our friends and family to expect something from us. It still feels a little bit like magic.</p>
-
-<p>Rarely does joy come out of guilt, but it does in this story.</p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>names not included to protect the innocent <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
+</p>
+  </article>
 </div>
 
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/5ways-nocost/" rel="permalink">5 No Cost Ways to Spread Joy
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
 
 
 
 
-</div><!-- /#main -->
-
-<div class="footer-wrapper">
-  <footer role="contentinfo">
-    <span>&copy; 2018 gifts-done. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="https://mademistakes.com/work/hpstr-jekyll-theme/" rel="nofollow">HPSTR Theme</a>.</span>
-  </footer>
-</div><!-- /.footer-wrapper -->
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="http://blog.gifts-done.com/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="http://blog.gifts-done.com/assets/js/scripts.min.js"></script>
+  3 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  “I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.”
+― Maya Angelou
 
 
+</p>
+  </article>
+</div>
+
+  
 
 
 
-</body>
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/how-to-use-gifts-done/" rel="permalink">How to use the gifts-done service
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Using a new service can be confusing. We want everyone to feel confident when first starting out with gifts-done.
+
+</p>
+  </article>
+</div>
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/how-to-supply-gifts-done/" rel="permalink">How to deliver a gift!
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Suppliers are the best! We count on your creativity and professionalism to make better gifting for everyone.
+
+</p>
+  </article>
+</div>
+
+  
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/backstory/" rel="permalink">Backstory
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Every business has a backstory, ours just starts with guilt and FaceTime
+
+</p>
+  </article>
+</div>
+
+
+
+
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/gifts_done"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+    
+    
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2018 Gifts-Done. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"></script>
+
+
+
+
+
+
+
+
+  </body>
 </html>
