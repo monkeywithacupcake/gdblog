@@ -1,4 +1,4 @@
-.masthead,.navlist,.greedy-nav,.masthead__menu{background-color:#2196f3 !important}.btn-primary{background-color:#2196f3 !important;color:#fff !important}.page__footer{color:#fff !important}.page__footer-follow .social-icons .svg-inline--fa{color:inherit}/*!
+.masthead,.navlist,.greedy-nav,.masthead__menu{background-color:#2196f3 !important}.btn-primary{background-color:#2196f3 !important;color:#fff !important}button,input,select,textarea{font-family:inherit;font-size:100%}input{height:1.5em;vertical-align:middle;color:#2196f3;font-weight:normal}input:focus,textarea:focus{background:rgba(0,0,0,0.1);border-radius:0px;outline:none;color:#2196f3;font-weight:normal}.page__footer{color:#fff !important}.page__footer-follow .social-icons .svg-inline--fa{color:inherit}/*!
  * Minimal Mistakes Jekyll Theme 4.11.1 by Michael Rose
  * Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
  * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt)
