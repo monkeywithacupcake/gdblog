@@ -33,4 +33,29 @@ var store = [{
         "excerpt":"Worried about regifting? Never fear, there are rules for this. “My friend gave me this beautiful vase, but it has been in my cupboard for a year, and I know another friend would actual use it. Is it okay to regift.” “I just received two different desk sets when I...","categories": ["users"],
         "tags": ["questions","gifts"],
         "url": "http://blog.gifts-done.com/regift/",
+        "teaser":null},{
+        "title": "How to Apologize for a Missed Gift",
+        "excerpt":"Many of our customers at Gifts Done are just like us (shocker) and have missed gifts in the past. In fact, most of the feedback that we get from users is how they love not doing that anymore because we take care of them. If you are not using an...","categories": ["users"],
+        "tags": ["questions","gifts"],
+        "url": "http://blog.gifts-done.com/apologize/",
+        "teaser":null},{
+        "title": "June Instagram Challenge",
+        "excerpt":"“Life is short - smile while you still have teeth.” Our heart and soul is in our wonderful suppliers, and we want everyone to have a little fun. To that end, we created an instagram challenge for suppliers, but anyone can join the fun. Let’s see what direction your month...","categories": ["suppliers"],
+        "tags": ["social","instagram"],
+        "url": "http://blog.gifts-done.com/june-ig/",
+        "teaser":null},{
+        "title": "July Instagram Challenge",
+        "excerpt":"“Summer is a state of mind” Our heart and soul is in our wonderful suppliers, and we want everyone to have a little fun this summer. To that end, we are continuing our instagram challenge for suppliers, and anyone can join the fun. Let’s see what direction your month takes!...","categories": ["suppliers"],
+        "tags": ["social","instagram"],
+        "url": "http://blog.gifts-done.com/july-ig/",
+        "teaser":null},{
+        "title": "5 Fun Summer Gifts",
+        "excerpt":"We love summer. Do you love summer? We’ve been chatting up our friends and scrolling through Instagram, of course, to find a few fun summer gifts. Give them to yourself or someone else for whatever occasion inspires you this summer. Our short summer gift idea list You don’t even have...","categories": ["users"],
+        "tags": ["gifts","ideas"],
+        "url": "http://blog.gifts-done.com/fun-summer-gifts/",
+        "teaser":null},{
+        "title": "5 Free Wallpapers from Gifts Done",
+        "excerpt":"Who’s awesome? You’re awesome. Here at Gifts Done, we constantly get to see amazing small business makers coming up with just the right gifts and our users celebrating with their friends and family. We love all of you. We made a few free wallpapers that you can download to decorate...","categories": ["perks"],
+        "tags": ["gifts"],
+        "url": "http://blog.gifts-done.com/5freewallpaper/",
         "teaser":null}]
