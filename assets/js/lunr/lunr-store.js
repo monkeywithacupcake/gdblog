@@ -44,6 +44,11 @@ var store = [{
         "tags": ["social","instagram"],
         "url": "http://blog.gifts-done.com/june-ig/",
         "teaser":null},{
+        "title": "22 Self Care Ideas",
+        "excerpt":"How are you feeling? Like, right now? If you feel tense, overwhelmed, nervous, or uncomfortable, it may be time to take a self-care break. Because we love you, we spent a few minutes coming up with a list of 22 ideas for self care. You can try these as written...","categories": ["users","suppliers"],
+        "tags": ["selfcare"],
+        "url": "http://blog.gifts-done.com/22selfcare/",
+        "teaser":null},{
         "title": "July Instagram Challenge",
         "excerpt":"“Summer is a state of mind” Our heart and soul is in our wonderful suppliers, and we want everyone to have a little fun this summer. To that end, we are continuing our instagram challenge for suppliers, and anyone can join the fun. Let’s see what direction your month takes!...","categories": ["suppliers"],
         "tags": ["social","instagram"],
